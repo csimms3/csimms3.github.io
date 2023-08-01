@@ -17,7 +17,7 @@ header {
     padding: 15px 25px;
     margin-bottom: 100px;
     
-    font-size: 20px;
+    font-size: clamp(.5rem, calc(.4rem + 2vw), 20px);
     font-family: "Rubik", 'Times New Roman', Times, serif;
     
     border-bottom: 1px solid black;
@@ -105,3 +105,5 @@ main {
     height: auto;
     align-self: flex-start;
 }
+
+/* **/
