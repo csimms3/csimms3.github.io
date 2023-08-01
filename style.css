@@ -87,6 +87,7 @@ main {
 
 .projects.content {
     display: flex;
+    gap: 2em;
 }
 
 
