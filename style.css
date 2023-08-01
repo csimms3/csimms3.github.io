@@ -54,6 +54,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 50px;
 }
 
 .card {
@@ -61,7 +62,7 @@ main {
     background-color: #EEEEEE;
 
     padding: 30px 20px 20px 20px;
-    width: calc(50px + 50vw);
+    width: calc(300px + 50vw);
 
     border: 1px solid black;
     border-radius: 10px;
@@ -74,6 +75,28 @@ main {
     font-size: 48px;
 }
 
+.card .title2 {
+    margin: 0;
+    font-size: 36px;
+}
+
 .card p {
     font-size: 24px;
+}
+
+.projects.content {
+    display: flex;
+}
+
+
+.projects.description {
+    width: 50%;
+}
+
+.projects.image {
+    border-radius: 7px;
+    margin-top: 30px;
+    display: block;
+    width: 50%;
+    height: auto;
 }
