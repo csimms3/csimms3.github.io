@@ -3,6 +3,7 @@
     src: url(resources/Rubik/Rubik-VariableFont_wght.ttf);
 }
 
+
 body {
     margin: 0;
     background-color: #CCCCCC;
@@ -62,7 +63,8 @@ main {
     background-color: #EEEEEE;
 
     padding: 30px 20px 20px 20px;
-    width: calc(300px + 50vw);
+    width: 80vw;
+    min-width: 200px;
 
     border: 1px solid black;
     border-radius: 10px;
@@ -72,12 +74,12 @@ main {
 
 .card .title {
     margin: 0;
-    font-size: 48px;
+    font-size: clamp(1rem, calc(1.5rem + 3vw), 48px);
 }
 
 .card .title2 {
     margin: 0;
-    font-size: 36px;
+    font-size: clamp(.8rem, calc(1rem + 2vw), 36px);
 }
 
 .card p, ul, li {
@@ -101,4 +103,5 @@ main {
     display: block;
     width: 50%;
     height: auto;
+    align-self: flex-start;
 }
