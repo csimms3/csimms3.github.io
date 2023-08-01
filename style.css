@@ -80,8 +80,9 @@ main {
     font-size: 36px;
 }
 
-.card p {
+.card p, ul, li {
     font-size: 24px;
+    width: 60%;
 }
 
 .projects.content {
