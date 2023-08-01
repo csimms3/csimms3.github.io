@@ -83,7 +83,7 @@ main {
 }
 
 .card p, ul, li {
-    font-size: 24px;
+    font-size: clamp(.5rem, calc(.4rem + 2vw), 24px);
     width: 60%;
 }
 
