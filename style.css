@@ -5,13 +5,13 @@
 
 body {
     margin: 0;
-    background-color: #F5F5F5;
+    background-color: #CCCCCC;
 }
 
 /* Header Styles */
 
 header {
-    background-color: white;
+    background-color: #EEEEEE;
     display: flex;
     padding: 15px 25px;
     margin-bottom: 100px;
@@ -56,9 +56,9 @@ main {
     align-items: center;
 }
 
-#intro-card {
+.card {
     font-family: "Rubik", 'Times New Roman', Times, serif;
-    background-color: white;
+    background-color: #EEEEEE;
 
     padding: 30px 20px 20px 20px;
     width: calc(50px + 50vw);
@@ -69,11 +69,11 @@ main {
 
 }
 
-#intro-card h3 {
+.card .title {
     margin: 0;
     font-size: 48px;
 }
 
-#intro-card p {
+.card p {
     font-size: 24px;
 }
