@@ -135,14 +135,14 @@ main {
 }
 
 .icon:hover {
-    transform: scale(1.1); 
+    transform: scale(1.2); 
 }
 
 /* Footer styles**/
 
 footer {
     background-color: #EEEEEE;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     margin-top: 100px;
     
     font-size: clamp(.5rem, calc(.4rem + 2vw), 20px);
